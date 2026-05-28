@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Bin Asad Graphics Center portfolio website - graphic designing, printing, flex banners, visiting cards, logos and more." />
+  <meta name="description" content="Bin Asad Graphics Center - professional graphic designing, printing, flex banners, visiting cards, logos and social media posts." />
   <title>Bin Asad Graphics Center | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="topbar">
     <a class="brand" href="#home"><span>BIN</span> ASAD <small>Graphics Center</small></a>
-    <nav>
+    <button class="menu-btn" id="menuBtn">☰</button>
+    <nav id="navMenu">
       <a href="#services">Services</a>
       <a href="#portfolio">Portfolio</a>
       <a href="#contact">Contact</a>
@@ -28,34 +29,37 @@
         <div class="hero-actions">
           <a class="btn primary" href="https://wa.me/923259137481" target="_blank">WhatsApp Now</a>
           <a class="btn" href="#portfolio">View Portfolio</a>
-          <a class="btn" href="https://www.facebook.com/share/1BMtT6cgsd/" target="_blank">Facebook</a>
-          <a class="btn" href="https://www.tiktok.com/@chqamer2588" target="_blank">TikTok</a>
         </div>
       </div>
-      <div class="hero-card">
-        <img src="assets/work-07.jpg" alt="Bin Asad Graphics Center design sample" />
+      <div class="hero-card no-img">
+        <div class="hero-icon">🎨</div>
+        <h2>Premium Creative Studio</h2>
+        <p>Posters • Flex • Cards • Logos • Social Media Designs</p>
       </div>
     </section>
 
     <section class="stats">
-      <div><b>50+</b><span>Portfolio Designs</span></div>
+      <div><b>50+</b><span>Portfolio Ideas</span></div>
       <div><b>8+</b><span>Design Services</span></div>
       <div><b>100%</b><span>Client Focus</span></div>
     </section>
 
     <section id="services" class="section">
-      <div class="section-title">
-        <p>What We Do</p>
-        <h2>Our Services</h2>
+      <div class="section-title"><p>What We Do</p><h2>Our Services</h2></div>
+      <div class="services-grid">
+        <div class="service-card"><span>🎨</span><h3>Graphic Designing</h3><p>Creative posters, social media posts, thumbnails and business designs.</p></div>
+        <div class="service-card"><span>🖨️</span><h3>Printing Services</h3><p>Print-ready files for cards, flyers, banners and office work.</p></div>
+        <div class="service-card"><span>📢</span><h3>Flex & Banner</h3><p>Shop boards, event flex, madrasa posters and large format banners.</p></div>
+        <div class="service-card"><span>☕</span><h3>Sublimation</h3><p>Mugs, shirts and custom gift printing designs.</p></div>
+        <div class="service-card"><span>💳</span><h3>Visiting Cards</h3><p>Professional business cards and luxury card layouts.</p></div>
+        <div class="service-card"><span>📄</span><h3>Brochures & Catalogs</h3><p>Clean company profiles, catalogs and promotional sheets.</p></div>
+        <div class="service-card"><span>✨</span><h3>Logo Designing</h3><p>Simple, modern and premium logo concepts.</p></div>
+        <div class="service-card"><span>🏆</span><h3>Certificates & Cards</h3><p>Award certificates, invitation cards and school templates.</p></div>
       </div>
-      <div class="services-grid"><div class="service-card"><span>01</span><h3>Graphic Designing</h3><p>Creative posters, social media posts, thumbnails and business designs.</p></div><div class="service-card"><span>02</span><h3>Printing Services</h3><p>Print-ready files for cards, flyers, banners and office work.</p></div><div class="service-card"><span>03</span><h3>Flex &amp; Banner</h3><p>Shop boards, event flex, madrasa posters and large format banners.</p></div><div class="service-card"><span>04</span><h3>Sublimation</h3><p>Mugs, shirts and custom gift printing designs.</p></div><div class="service-card"><span>05</span><h3>Visiting Cards</h3><p>Professional business cards and luxury card layouts.</p></div><div class="service-card"><span>06</span><h3>Brochures &amp; Catalogs</h3><p>Clean company profiles, catalogs and promotional sheets.</p></div><div class="service-card"><span>07</span><h3>Logo Designing</h3><p>Simple, modern and premium logo concepts.</p></div><div class="service-card"><span>08</span><h3>Certificates &amp; Cards</h3><p>Award certificates, invitation cards and school templates.</p></div></div>
     </section>
 
     <section id="portfolio" class="section portfolio-section">
-      <div class="section-title">
-        <p>Selected Work</p>
-        <h2>Portfolio / Sample Designs</h2>
-      </div>
+      <div class="section-title"><p>Selected Work</p><h2>Portfolio / Sample Ideas</h2></div>
       <div class="filters">
         <button class="active" data-filter="all">All</button>
         <button data-filter="Branding">Branding</button>
@@ -64,230 +68,7 @@
         <button data-filter="Logo / Social">Logo / Social</button>
         <button data-filter="Cards / Certificates">Cards</button>
       </div>
-      <div class="gallery"><figure class="work-card" data-category="Branding">
-    <img src="assets/work-01.jpg" alt="Bin Asad Graphics portfolio design 1" loading="lazy" />
-    <figcaption><b>Branding</b><small>Sample Design 01</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Branding">
-    <img src="assets/work-02.jpg" alt="Bin Asad Graphics portfolio design 2" loading="lazy" />
-    <figcaption><b>Branding</b><small>Sample Design 02</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Branding">
-    <img src="assets/work-03.jpg" alt="Bin Asad Graphics portfolio design 3" loading="lazy" />
-    <figcaption><b>Branding</b><small>Sample Design 03</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Branding">
-    <img src="assets/work-04.jpg" alt="Bin Asad Graphics portfolio design 4" loading="lazy" />
-    <figcaption><b>Branding</b><small>Sample Design 04</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Branding">
-    <img src="assets/work-05.jpg" alt="Bin Asad Graphics portfolio design 5" loading="lazy" />
-    <figcaption><b>Branding</b><small>Sample Design 05</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Branding">
-    <img src="assets/work-06.jpg" alt="Bin Asad Graphics portfolio design 6" loading="lazy" />
-    <figcaption><b>Branding</b><small>Sample Design 06</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Branding">
-    <img src="assets/work-07.jpg" alt="Bin Asad Graphics portfolio design 7" loading="lazy" />
-    <figcaption><b>Branding</b><small>Sample Design 07</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Branding">
-    <img src="assets/work-08.jpg" alt="Bin Asad Graphics portfolio design 8" loading="lazy" />
-    <figcaption><b>Branding</b><small>Sample Design 08</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Branding">
-    <img src="assets/work-09.jpg" alt="Bin Asad Graphics portfolio design 9" loading="lazy" />
-    <figcaption><b>Branding</b><small>Sample Design 09</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Branding">
-    <img src="assets/work-10.jpg" alt="Bin Asad Graphics portfolio design 10" loading="lazy" />
-    <figcaption><b>Branding</b><small>Sample Design 10</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Branding">
-    <img src="assets/work-11.jpg" alt="Bin Asad Graphics portfolio design 11" loading="lazy" />
-    <figcaption><b>Branding</b><small>Sample Design 11</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Branding">
-    <img src="assets/work-12.jpg" alt="Bin Asad Graphics portfolio design 12" loading="lazy" />
-    <figcaption><b>Branding</b><small>Sample Design 12</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Branding">
-    <img src="assets/work-13.jpg" alt="Bin Asad Graphics portfolio design 13" loading="lazy" />
-    <figcaption><b>Branding</b><small>Sample Design 13</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Branding">
-    <img src="assets/work-14.jpg" alt="Bin Asad Graphics portfolio design 14" loading="lazy" />
-    <figcaption><b>Branding</b><small>Sample Design 14</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Flex Posters">
-    <img src="assets/work-15.jpg" alt="Bin Asad Graphics portfolio design 15" loading="lazy" />
-    <figcaption><b>Flex Posters</b><small>Sample Design 15</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Flex Posters">
-    <img src="assets/work-16.jpg" alt="Bin Asad Graphics portfolio design 16" loading="lazy" />
-    <figcaption><b>Flex Posters</b><small>Sample Design 16</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Flex Posters">
-    <img src="assets/work-17.jpg" alt="Bin Asad Graphics portfolio design 17" loading="lazy" />
-    <figcaption><b>Flex Posters</b><small>Sample Design 17</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Branding">
-    <img src="assets/work-18.jpg" alt="Bin Asad Graphics portfolio design 18" loading="lazy" />
-    <figcaption><b>Branding</b><small>Sample Design 18</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Branding">
-    <img src="assets/work-19.jpg" alt="Bin Asad Graphics portfolio design 19" loading="lazy" />
-    <figcaption><b>Branding</b><small>Sample Design 19</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Posters">
-    <img src="assets/work-20.jpg" alt="Bin Asad Graphics portfolio design 20" loading="lazy" />
-    <figcaption><b>Posters</b><small>Sample Design 20</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Posters">
-    <img src="assets/work-21.jpg" alt="Bin Asad Graphics portfolio design 21" loading="lazy" />
-    <figcaption><b>Posters</b><small>Sample Design 21</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Posters">
-    <img src="assets/work-22.jpg" alt="Bin Asad Graphics portfolio design 22" loading="lazy" />
-    <figcaption><b>Posters</b><small>Sample Design 22</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Flex Posters">
-    <img src="assets/work-23.jpg" alt="Bin Asad Graphics portfolio design 23" loading="lazy" />
-    <figcaption><b>Flex Posters</b><small>Sample Design 23</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Flex Posters">
-    <img src="assets/work-24.jpg" alt="Bin Asad Graphics portfolio design 24" loading="lazy" />
-    <figcaption><b>Flex Posters</b><small>Sample Design 24</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Posters">
-    <img src="assets/work-25.jpg" alt="Bin Asad Graphics portfolio design 25" loading="lazy" />
-    <figcaption><b>Posters</b><small>Sample Design 25</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Posters">
-    <img src="assets/work-26.jpg" alt="Bin Asad Graphics portfolio design 26" loading="lazy" />
-    <figcaption><b>Posters</b><small>Sample Design 26</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Flex Posters">
-    <img src="assets/work-27.jpg" alt="Bin Asad Graphics portfolio design 27" loading="lazy" />
-    <figcaption><b>Flex Posters</b><small>Sample Design 27</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Flex Posters">
-    <img src="assets/work-28.jpg" alt="Bin Asad Graphics portfolio design 28" loading="lazy" />
-    <figcaption><b>Flex Posters</b><small>Sample Design 28</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Logo / Social">
-    <img src="assets/work-29.jpg" alt="Bin Asad Graphics portfolio design 29" loading="lazy" />
-    <figcaption><b>Logo / Social</b><small>Sample Design 29</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Logo / Social">
-    <img src="assets/work-30.jpg" alt="Bin Asad Graphics portfolio design 30" loading="lazy" />
-    <figcaption><b>Logo / Social</b><small>Sample Design 30</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Flex Posters">
-    <img src="assets/work-31.jpg" alt="Bin Asad Graphics portfolio design 31" loading="lazy" />
-    <figcaption><b>Flex Posters</b><small>Sample Design 31</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Flex Posters">
-    <img src="assets/work-32.jpg" alt="Bin Asad Graphics portfolio design 32" loading="lazy" />
-    <figcaption><b>Flex Posters</b><small>Sample Design 32</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Flex Posters">
-    <img src="assets/work-33.jpg" alt="Bin Asad Graphics portfolio design 33" loading="lazy" />
-    <figcaption><b>Flex Posters</b><small>Sample Design 33</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Flex Posters">
-    <img src="assets/work-34.jpg" alt="Bin Asad Graphics portfolio design 34" loading="lazy" />
-    <figcaption><b>Flex Posters</b><small>Sample Design 34</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Posters">
-    <img src="assets/work-35.jpg" alt="Bin Asad Graphics portfolio design 35" loading="lazy" />
-    <figcaption><b>Posters</b><small>Sample Design 35</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Posters">
-    <img src="assets/work-36.jpg" alt="Bin Asad Graphics portfolio design 36" loading="lazy" />
-    <figcaption><b>Posters</b><small>Sample Design 36</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Posters">
-    <img src="assets/work-37.jpg" alt="Bin Asad Graphics portfolio design 37" loading="lazy" />
-    <figcaption><b>Posters</b><small>Sample Design 37</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Flex Posters">
-    <img src="assets/work-38.jpg" alt="Bin Asad Graphics portfolio design 38" loading="lazy" />
-    <figcaption><b>Flex Posters</b><small>Sample Design 38</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Flex Posters">
-    <img src="assets/work-39.jpg" alt="Bin Asad Graphics portfolio design 39" loading="lazy" />
-    <figcaption><b>Flex Posters</b><small>Sample Design 39</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Flex Posters">
-    <img src="assets/work-40.jpg" alt="Bin Asad Graphics portfolio design 40" loading="lazy" />
-    <figcaption><b>Flex Posters</b><small>Sample Design 40</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Flex Posters">
-    <img src="assets/work-41.jpg" alt="Bin Asad Graphics portfolio design 41" loading="lazy" />
-    <figcaption><b>Flex Posters</b><small>Sample Design 41</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Posters">
-    <img src="assets/work-42.jpg" alt="Bin Asad Graphics portfolio design 42" loading="lazy" />
-    <figcaption><b>Posters</b><small>Sample Design 42</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Posters">
-    <img src="assets/work-43.jpg" alt="Bin Asad Graphics portfolio design 43" loading="lazy" />
-    <figcaption><b>Posters</b><small>Sample Design 43</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Flex Posters">
-    <img src="assets/work-44.jpg" alt="Bin Asad Graphics portfolio design 44" loading="lazy" />
-    <figcaption><b>Flex Posters</b><small>Sample Design 44</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Logo / Social">
-    <img src="assets/work-45.jpg" alt="Bin Asad Graphics portfolio design 45" loading="lazy" />
-    <figcaption><b>Logo / Social</b><small>Sample Design 45</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Logo / Social">
-    <img src="assets/work-46.jpg" alt="Bin Asad Graphics portfolio design 46" loading="lazy" />
-    <figcaption><b>Logo / Social</b><small>Sample Design 46</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Posters">
-    <img src="assets/work-47.jpg" alt="Bin Asad Graphics portfolio design 47" loading="lazy" />
-    <figcaption><b>Posters</b><small>Sample Design 47</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Logo / Social">
-    <img src="assets/work-48.jpg" alt="Bin Asad Graphics portfolio design 48" loading="lazy" />
-    <figcaption><b>Logo / Social</b><small>Sample Design 48</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Posters">
-    <img src="assets/work-49.jpg" alt="Bin Asad Graphics portfolio design 49" loading="lazy" />
-    <figcaption><b>Posters</b><small>Sample Design 49</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Posters">
-    <img src="assets/work-50.jpg" alt="Bin Asad Graphics portfolio design 50" loading="lazy" />
-    <figcaption><b>Posters</b><small>Sample Design 50</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Posters">
-    <img src="assets/work-51.jpg" alt="Bin Asad Graphics portfolio design 51" loading="lazy" />
-    <figcaption><b>Posters</b><small>Sample Design 51</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Cards / Certificates">
-    <img src="assets/work-52.jpg" alt="Bin Asad Graphics portfolio design 52" loading="lazy" />
-    <figcaption><b>Cards / Certificates</b><small>Sample Design 52</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Cards / Certificates">
-    <img src="assets/work-53.jpg" alt="Bin Asad Graphics portfolio design 53" loading="lazy" />
-    <figcaption><b>Cards / Certificates</b><small>Sample Design 53</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Cards / Certificates">
-    <img src="assets/work-54.jpg" alt="Bin Asad Graphics portfolio design 54" loading="lazy" />
-    <figcaption><b>Cards / Certificates</b><small>Sample Design 54</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Cards / Certificates">
-    <img src="assets/work-55.jpg" alt="Bin Asad Graphics portfolio design 55" loading="lazy" />
-    <figcaption><b>Cards / Certificates</b><small>Sample Design 55</small></figcaption>
-  </figure>
-<figure class="work-card" data-category="Cards / Certificates">
-    <img src="assets/work-56.jpg" alt="Bin Asad Graphics portfolio design 56" loading="lazy" />
-    <figcaption><b>Cards / Certificates</b><small>Sample Design 56</small></figcaption>
-  </figure></div>
+      <div class="gallery" id="gallery"></div>
     </section>
 
     <section id="contact" class="contact">
@@ -306,17 +87,14 @@
         <p><b>Proprietor:</b> Hafiz Qamar Ullah Asad</p>
         <p><b>Phone:</b> 03259137481, 03450780584</p>
         <p><b>WhatsApp:</b> +92 325 9137481</p>
-        <img class="qr" src="assets/whatsapp-qr.png" alt="WhatsApp QR Code for Bin Asad Graphics Center" />
         <a class="btn primary full" href="https://wa.me/923259137481" target="_blank">Chat on WhatsApp</a>
-        <a class="btn full" href="https://www.facebook.com/share/1BMtT6cgsd/" target="_blank">Open Facebook Page</a>
-        <a class="btn full" href="https://www.tiktok.com/@chqamer2588" target="_blank">Open TikTok Profile</a>
       </div>
     </section>
   </main>
 
   <footer>© <span id="year"></span> Bin Asad Graphics Center. All Rights Reserved.</footer>
 
-  <div class="lightbox" id="lightbox"><button id="close">×</button><img src="" alt="Preview"></div>
+  <div class="lightbox" id="lightbox"><button id="close">×</button><div class="preview-card" id="previewCard"></div></div>
   <div class="float-buttons">
     <a class="float whatsapp" href="https://wa.me/923259137481" target="_blank">WhatsApp</a>
     <a class="float facebook" href="https://www.facebook.com/share/1BMtT6cgsd/" target="_blank">Facebook</a>
